@@ -57,7 +57,7 @@ body {
 
 .hero{
     width: 100%;
-    height: 100vh;
+    height: calc(100vh - 100px)
 }
 .hero_div {
     position: relative;
@@ -94,17 +94,16 @@ body {
 
 .hero_image {
     width: 100%;
+    height: calc(100vh);
     position: absolute;
     top: 0;
     left: 0;
-    right: 0;
     z-index: -1;
-    object-fit: cover;
+    object-fit:cover;
   
 }
 
 .see_more {
-    display: block;
     border:1px solid #aa926b;
     padding: 15px;
     margin-top: 50px;
@@ -151,48 +150,92 @@ body {
     text-align: center;
 }
 
-/* about section ends */
-
-/* wines section start */
-.wines{
- width: 100%;
-/* display: flex;
-align-content: center;
-align-items: center; */
- 
-}
-
-.wines img {
-   
-    height: 290px;
-}
-
-.wines_div1{
+.wine_mukuzani {
     display: flex;
+    width: 100%;
+    justify-content: space-around;
 }
-.wines_div2 {
-    display: flex;
+.wines_div1 {
+    width: 1150px;
+    background-color: #1e212a;
+    
+    
 }
-
 .mukuzani {
     height: 290px;
-   
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     justify-content: space-around;
-    background-color: #1e212a;
-    width: 850px;
-    margin-left: 25px;
+
+}
+.mukuzani> span {
+    margin-left: 100px;
+    color: #aa926b;
+}
+.mukuzani > h2 {
+    margin-left: 100px;
+}
+.mukuzani > h2::before{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 1px;
+    background-color: #aa926b;
+    position: relative;
+    top: 40px;
+}
+
+.mukuzani > p {
+    margin-left: 100px;
+}
+
+
+.wine_xvanchkara {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.wines_div2 {
+    width: 1150px;
+    background-color: #020202;
+
 }
 .xvanchkara {
     height: 290px;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     justify-content: space-around;
-    background-color: #1e212a;
-    width: 650px;
-    margin-right: 25px;
-
+}
+.xvanchkara> span {
+    margin-left: 100px;
+    color: #aa926b;
+}
+.xvanchkara > h2 {
+    margin-left: 100px;
+}
+.xvanchkara >h2::before {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 1px;
+    background-color: #aa926b;
+    position: relative;
+    top: 40px;
 }
 
-
+.xvanchkara > p {
+    margin-left: 100px;
+}
+.xvanchkara > a {
+    display: flex;
+    align-self:  flex-end;
+    border:1px solid #aa926b;
+    padding: 15px;
+    margin-top: 50px;
+    position: relative;
+    right: 100px;
+}
