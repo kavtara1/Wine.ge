@@ -4,7 +4,8 @@
 }
 
 body {
-    background-color: black;
+    background-color:#141519;
+   
 }
 
 * {
@@ -63,6 +64,7 @@ body {
     top: 250px;
     left: 250px;
     height: 250px;
+    width: 550px;
 }
 .hero_h1 {
     text-transform: uppercase;
@@ -91,15 +93,18 @@ body {
 
 
 .hero_image {
+    width: 100%;
     position: absolute;
     top: 0;
     left: 0;
+    right: 0;
     z-index: -1;
     object-fit: cover;
   
 }
 
 .see_more {
+    display: block;
     border:1px solid #aa926b;
     padding: 15px;
     margin-top: 50px;
@@ -112,15 +117,25 @@ body {
 
 .about {
     width: 100%;
-    height: 250px;
+    height: 350px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 70px;
 }
 .about_h2 {
     font-size: 45px;
-
+}
+.about_h2::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 1px;
+    background-color: #aa926b;
+    position: relative;
+    left: 130px;
+    top: 25px;
 }
 
 .about_list {
@@ -136,5 +151,48 @@ body {
     text-align: center;
 }
 
+/* about section ends */
+
+/* wines section start */
+.wines{
+ width: 100%;
+/* display: flex;
+align-content: center;
+align-items: center; */
+ 
+}
+
+.wines img {
+   
+    height: 290px;
+}
+
+.wines_div1{
+    display: flex;
+}
+.wines_div2 {
+    display: flex;
+}
+
+.mukuzani {
+    height: 290px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #1e212a;
+    width: 850px;
+    margin-left: 25px;
+}
+.xvanchkara {
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #1e212a;
+    width: 650px;
+    margin-right: 25px;
+
+}
 
 
