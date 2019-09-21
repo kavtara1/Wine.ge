@@ -239,3 +239,42 @@ body {
     position: relative;
     right: 100px;
 }
+
+.products {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.products_div {
+   
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.products_div h2::before {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 1px;
+    background-color: #aa926b;
+    position: relative;
+    top: 55px;
+    left: 50px;
+}
+
+
+.products_list {
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.products_list li a:hover {
+    color: #aa926b;
+}
