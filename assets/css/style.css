@@ -278,3 +278,9 @@ body {
 .products_list li a:hover {
     color: #aa926b;
 }
+
+.slider {
+    width: 1000px;
+    height: 300px;
+    border: 1px solid red;
+}
