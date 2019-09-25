@@ -2,6 +2,16 @@
     font-family: FiraGo;
     src: url("../font/FiraGO-Regular.ttf");
 }
+@font-face {
+    font-family: Prata;
+    src: url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+}
+
+@font-face {
+    font-family: light;
+    src: url('https://free.bboxtype.com/embedfonts/?family=FiraGO:200');
+   
+}
 
 body {
     background-color: #141519;
@@ -13,7 +23,6 @@ body {
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-    font-family: FiraGo;
     color: #FFF
 }
 
@@ -38,6 +47,7 @@ body {
 
 .navigation_list li a {
     color: #FFF;
+    text-transform: uppercase;
 }
 
 .navigation_list li:hover {
@@ -66,10 +76,12 @@ body {
     font-size: 50px;
     margin-top: 25px;
     margin-bottom: 30px;
+    font-family: Prata sans-serif;
 }
 
 .hero_span {
     color: #aa926b;
+    font-family: light sans-serif;
 }
 
 .hero_p {
@@ -103,8 +115,14 @@ body {
     margin-top: 50px;
     position: relative;
     left: 100px;
+    transition: background-color 300ms ease;
 }
 
+.see_more:hover{
+    background-color: #aa926b;
+    color: #141519;
+    transition: background-color 300ms ease;
+}
 
 /* About Section start */
 
@@ -240,6 +258,12 @@ body {
     margin-top: 50px;
     position: relative;
     right: 100px;
+    transition: background-color 300ms ease;
+}
+.xvanchkara>a:hover {
+    background-color: #aa926b;
+    color: #141519;
+    transition: background-color 300ms ease;
 }
 
 .products {
@@ -273,10 +297,12 @@ body {
     width: 550px;
     display: flex;
     justify-content: space-between;
+    transition: color 300ms ease;
 }
 
 .products_list li a:hover {
     color: #aa926b;
+    transition: color 300ms ease;
 }
 
 
@@ -407,7 +433,14 @@ body {
     justify-content: space-around;
     align-items: center;
 }
+.footer_nav ul li a {
+    transition: color 300ms ease;
+}
 
+.footer_nav ul li a:hover {
+    color: #aa926b;
+    transition: color 300ms ease;
+}
 .contact {
     width: 70%;
     display: flex;
