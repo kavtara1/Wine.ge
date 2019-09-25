@@ -1,7 +1,8 @@
 @font-face {
     font-family: FiraGo;
-    src: url("../font/FiraGO-Regular.ttf");
+    src: url('../font/FiraGO-Regular.ttf');
 }
+
 @font-face {
     font-family: Prata;
     src: url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
@@ -9,8 +10,17 @@
 
 @font-face {
     font-family: light;
-    src: url('https://free.bboxtype.com/embedfonts/?family=FiraGO:200');
-   
+    src: url("../font/FiraGO-Light.ttf");
+}
+
+@font-face {
+    font-family: ragac;
+    src: url('../font/alk-sanet.ttf');
+}
+
+@font-face {
+    font-family: caps;
+    src: url('../font/caps.ttf');
 }
 
 body {
@@ -31,7 +41,7 @@ body {
     height: 100px;
     display: flex;
     justify-content: space-around;
-    align-items: center
+    align-items: center;
 }
 
 .navigation_list {
@@ -47,6 +57,7 @@ body {
 
 .navigation_list li a {
     color: #FFF;
+    font-family: caps, sans-serif;
     text-transform: uppercase;
 }
 
@@ -72,20 +83,24 @@ body {
 }
 
 .hero_h1 {
-    text-transform: uppercase;
     font-size: 50px;
     margin-top: 25px;
     margin-bottom: 30px;
-    font-family: Prata sans-serif;
+    font-family: FiraGo, sans-serif;
 }
 
 .hero_span {
     color: #aa926b;
-    font-family: light sans-serif;
+    font-family: caps, sans-serif;
+    font-size: 12px;
 }
 
 .hero_p {
+    margin-left: 150px;
     margin-bottom: 100px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
 }
 
 .hero_p::before {
@@ -116,13 +131,15 @@ body {
     position: relative;
     left: 100px;
     transition: background-color 300ms ease;
+    font-family: caps, sans-serif
 }
 
-.see_more:hover{
+.see_more:hover {
     background-color: #aa926b;
     color: #141519;
     transition: background-color 300ms ease;
 }
+
 
 /* About Section start */
 
@@ -138,6 +155,8 @@ body {
 
 .about_h2 {
     font-size: 45px;
+    font-family: caps, sans-serif;
+    letter-spacing: 2px;
 }
 
 .about_h2::after {
@@ -163,6 +182,10 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
+}
+
+.about_list li h3 {
+    font-family: caps, sans-serif;
 }
 
 .wine_mukuzani {
@@ -191,6 +214,7 @@ body {
 
 .mukuzani>h2 {
     margin-left: 100px;
+    font-family: caps, sans-serif;
 }
 
 .mukuzani>h2::before {
@@ -234,6 +258,7 @@ body {
 
 .xvanchkara>h2 {
     margin-left: 100px;
+    font-family: caps, sans-serif;
 }
 
 .xvanchkara>h2::before {
@@ -259,7 +284,9 @@ body {
     position: relative;
     right: 100px;
     transition: background-color 300ms ease;
+    font-family: caps, sans-serif;
 }
+
 .xvanchkara>a:hover {
     background-color: #aa926b;
     color: #141519;
@@ -282,6 +309,10 @@ body {
     align-items: center;
 }
 
+.products_div h2 {
+    font-family: caps, sans-serif;
+}
+
 .products_div h2::before {
     content: "";
     display: block;
@@ -300,6 +331,10 @@ body {
     transition: color 300ms ease;
 }
 
+.products_list li a {
+    font-family: caps, sans-serif;
+}
+
 .products_list li a:hover {
     color: #aa926b;
     transition: color 300ms ease;
@@ -309,28 +344,34 @@ body {
 /* slider */
 
 .swiper-container {
-    width: 100%;
-    /* height: 100%; */
+    width: 80%;
 }
 
-.swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-    color: black
+.swiper-button-prev:after {
+    color: #FFF;
+}
+
+.swiper-button-prev:hover::after {
+    color: #aa926b;
+}
+
+.swiper-button-next:after {
+    color: #FFF;
+}
+
+.swiper-button-next:hover::after {
+    color: #aa926b;
+}
+
+.slider_span {
+    display: block;
+    color: #FFF;
+    margin-top: 15px;
+}
+
+.first_after {
+    content: 'მუკუზანი';
+    top: 80px;
 }
 
 
@@ -367,6 +408,10 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+}
+
+.news-h2 {
+    font-family: caps, sans-serif;
 }
 
 .news ul {
@@ -433,6 +478,7 @@ body {
     justify-content: space-around;
     align-items: center;
 }
+
 .footer_nav ul li a {
     transition: color 300ms ease;
 }
@@ -441,6 +487,7 @@ body {
     color: #aa926b;
     transition: color 300ms ease;
 }
+
 .contact {
     width: 70%;
     display: flex;
