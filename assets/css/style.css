@@ -74,20 +74,9 @@ body {
     height: calc(100vh - 100px)
 }
 
-.hero_div {
-    position: relative;
-    top: 250px;
-    left: 250px;
-    height: 250px;
-    width: 550px;
-}
 
-.hero_h1 {
-    font-size: 50px;
-    margin-top: 25px;
-    margin-bottom: 30px;
-    font-family: FiraGo, sans-serif;
-}
+
+
 
 .hero_span {
     color: #aa926b;
@@ -95,34 +84,9 @@ body {
     font-size: 12px;
 }
 
-.hero_p {
-    margin-left: 150px;
-    margin-bottom: 100px;
-    height: 50px;
-    display: flex;
-    flex-direction: column;
-}
 
-.hero_p::before {
-    content: "";
-    display: block;
-    width: 100px;
-    height: 1px;
-    background-color: #aa926b;
-    position: relative;
-    left: -150px;
-    top: 10px;
-}
 
-.hero_image {
-    width: 100%;
-    height: calc(100vh);
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    object-fit: cover;
-}
+
 
 .see_more {
     border: 1px solid #aa926b;
@@ -143,21 +107,9 @@ body {
 
 /* About Section start */
 
-.about {
-    width: 100%;
-    height: 350px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    margin-bottom: 70px;
-}
 
-.about_h2 {
-    font-size: 45px;
-    font-family: caps, sans-serif;
-    letter-spacing: 2px;
-}
+
+
 
 .about_h2::after {
     content: "";
@@ -170,34 +122,17 @@ body {
     top: 25px;
 }
 
-.about_list {
-    display: flex;
-    width: 1000px;
-}
 
-.about_list li {
-    height: 200px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
+
+
 
 .about_list li h3 {
     font-family: caps, sans-serif;
 }
 
-.wine_mukuzani {
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-}
 
-.wines_div1 {
-    width: 55%;
-    background-color: #1e212a;
-}
+
+
 
 .mukuzani {
     height: 290px;
@@ -231,25 +166,7 @@ body {
     margin-left: 100px;
 }
 
-.wine_xvanchkara {
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    margin-top: 30px;
-}
 
-.wines_div2 {
-    width: 55%;
-    background-color: #020202;
-}
-
-.xvanchkara {
-    height: 290px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-around;
-}
 
 .xvanchkara>span {
     margin-left: 100px;
@@ -300,14 +217,7 @@ body {
     flex-direction: column;
 }
 
-.products_div {
-    width: 650px;
-    display: flex;
-    flex-direction: column;
-    height: 350px;
-    justify-content: space-around;
-    align-items: center;
-}
+
 
 .products_div h2 {
     font-family: caps, sans-serif;
@@ -377,21 +287,9 @@ body {
 
 /* slider */
 
-.video {
-    position: relative;
-    height: 700px;
-    width: 100%;
-    margin-top: 70px;
-}
 
-.video>img {
-    /* height: 500px; */
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-}
+
+
 
 .news_div {
     height: 550px;
@@ -402,31 +300,15 @@ body {
     width: 85%;
 }
 
-.news {
-    height: 450px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-}
+
 
 .news-h2 {
     font-family: caps, sans-serif;
 }
 
-.news ul {
-    width: 75%;
-    display: flex;
-    justify-content: space-between;
-}
 
-.news ul li {
-    width: 290px;
-    display: flex;
-    /* justify-content: flex-start; */
-    flex-direction: column;
-    justify-content: space-between;
-}
+
+
 
 .news ul li img {
     width: 250px;
@@ -522,4 +404,405 @@ body {
     width: 550px;
     display: flex;
     justify-content: space-between;
+}
+.news ul li {
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.news ul li p {
+    text-align: center;
+}
+
+
+
+@media only screen and (min-width: 0px) {
+
+  
+    .navigation {
+        display: none;
+    }
+
+    
+
+    .hero_div {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       
+    }
+    
+    .hero_p {
+       
+        height: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* responsive */
+    }
+  
+  
+
+    .see_more {
+        display: inline-block;
+        left: 0px;
+        width: 150px;
+    }
+    .hero {
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        width: 100%;
+        height: 350px;
+        
+
+    }
+    .hero_p::before {
+        content: "";
+        display: none;
+        width: 100px;
+        height: 1px;
+        background-color: #aa926b;
+        position: relative;
+        left: -150px;
+        top: 10px;
+    }
+    .hero_image {
+        width: 100%;
+        height:480px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        object-fit: cover;
+    }
+    .hero_h1 {
+        font-size: 25px;
+        margin-top: 25px;
+        margin-bottom: 30px;
+        font-family: FiraGo, sans-serif;
+    }
+    
+    .about {
+        width: 100%;
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 70px;
+    }
+    .about_h2 {
+        font-size: 26px;
+        font-family: caps, sans-serif;
+        letter-spacing: 2px;
+    }
+    .about_list {
+       
+       /* height: 450px; */
+    }
+
+    .about_list li {
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    }
+    .wine_mukuzani {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+
+    }
+    .more_mukuzani {
+        display: flex;
+        align-self: flex-start;
+        margin-left: 60px;
+        
+    }
+    .wines_div1 {
+        /* display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%; */
+        background-color: #1e212a;
+    }
+    /* .more_mukuzani {
+        display: flex;
+        align-self: flex-start;
+        margin-left: 60px;
+    }
+    .mukuzani {
+        height: 290px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+     */
+
+     .wine_xvanchkara {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .xvanchkara {
+        height: 290px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+    .swiper-button-next::after {
+        display: none;
+    }
+    .swiper-button-prev::after {
+        display: none;
+    }
+    .products_list {
+        display: none;
+    }
+    .products_div {
+        width: 650px;
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .video {
+        position: relative;
+        height: 200px;
+        width: 100%;
+        margin-top: 70px;
+    }
+    .video>img {
+   
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        object-fit: cover;
+    }
+    .news ul {
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 1500px;
+        
+    }
+    .news {
+        height: 1300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      
+    }
+}
+
+
+
+
+@media only screen and (min-width: 480px) {
+ 
+    .navigation {
+        display: flex;
+    }
+    .hero_div {
+        display: block;
+        position: relative;
+        top: 250px;
+        left: 250px;
+        height: 250px;
+        width: 550px;
+    }
+    
+    .hero_p {
+        margin-left: 150px;
+        margin-bottom: 100px;
+        height: 25px;
+        display: flex;
+        flex-direction: column;
+    }
+    .wines_div2 {
+        width: 100%;
+        background-color: #020202;
+    }
+
+   
+    
+    .hero {
+        width: 100%;
+        height: calc(100vh - 100px);
+        display: block;
+        
+    }
+    .hero_p::before {
+        content: "";
+        display: block;
+        width: 100px;
+        height: 1px;
+        background-color: #aa926b;
+        position: relative;
+        left: -150px;
+        top: 10px;
+    }
+    .hero_image {
+        width: 100%;
+        height: calc(100vh);
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        object-fit: cover;
+    }
+    .hero_h1 {
+        font-size: 50px;
+        margin-top: 25px;
+        margin-bottom: 30px;
+        font-family: FiraGo, sans-serif;
+    }
+    
+
+    .about {
+        width: 100%;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 70px;
+    }
+    .about_h2 {
+        font-size: 45px;
+        font-family: caps, sans-serif;
+        letter-spacing: 2px;
+    }
+
+    .about_list {
+        display: flex;
+        width: 60%;
+    }
+    .about_list li {
+        height: 200px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .wine_mukuzani {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+
+
+    .wines_div1 {
+        width: 55%;
+        background-color: #1e212a;
+    }
+    
+    /* .more_mukuzani {
+        display: flex;
+        align-self: center;
+        
+    } */
+    
+    .mukuzani {
+        height: 290px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+    .wine_xvanchkara {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+        margin-top: 30px;
+    }
+    .wines_div2 {
+        width: 55%;
+        background-color: #020202;
+    }
+    .xvanchkara {
+        height: 290px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+
+    .swiper-button-next::after {
+        display: block;
+    }
+    .swiper-button-prev::after {
+        display: block;
+    }
+    .products_list {
+        display: flex;
+        width: 550px;
+        justify-content: space-between;
+        transition: color 300ms ease;
+    }
+    .products_div {
+        width: 650px;
+        display: flex;
+        flex-direction: column;
+        height: 350px;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .video {
+        position: relative;
+        height: 700px;
+        width: 100%;
+        margin-top: 70px;
+    }
+    .video>img {
+   
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+    }
+    .news ul {
+        width: 75%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .news {
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .news ul li {
+        width:320px;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .news ul li p {
+        text-align: left;
+    }
 }
