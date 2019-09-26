@@ -337,22 +337,8 @@ body {
     transform: rotate(180deg);
 }
 
-.footer {
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
-.footer_nav {
-    width: 65%;
-    display: flex;
-    justify-content: center;
-    border-top: 1px solid #3c3d3f;
-    border-bottom: 1px solid #3c3d3f;
-    padding: 20px 20px;
-}
+
 
 .footer_nav ul {
     width: 80%;
@@ -393,18 +379,9 @@ body {
     flex-direction: column
 }
 
-.address_hotline {
-    width: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
 
-.media_icons {
-    width: 550px;
-    display: flex;
-    justify-content: space-between;
-}
+
+
 .news ul li {
     width: 290px;
     display: flex;
@@ -571,7 +548,7 @@ body {
         display: none;
     }
     .products_div {
-        width: 650px;
+        width: 100%;
         display: flex;
         flex-direction: column;
         height: 300px;
@@ -610,12 +587,58 @@ body {
         align-items: center;
       
     }
+    .footer_nav {
+        display: none;
+    }
+
+    .contact {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .media_icons {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .media {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .foricons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .address_hotline {
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 35px;
+    }
+    .footer {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
 }
 
 
 
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 481px) {
  
     .navigation {
         display: flex;
@@ -805,4 +828,41 @@ body {
     .news ul li p {
         text-align: left;
     }
+    .footer_nav {
+        width: 65%;
+        display: flex;
+        justify-content: center;
+        border-top: 1px solid #3c3d3f;
+        border-bottom: 1px solid #3c3d3f;
+        padding: 20px 20px;
+    }
+    .contact {
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .media_icons {
+        width: 550px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .address_hotline {
+        width: 400px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .footer {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
 }

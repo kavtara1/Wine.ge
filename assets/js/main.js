@@ -1,5 +1,18 @@
+var myWidth = innerWidth;
+var slider_prev;
+
+function checkWidth () {
+    if (myWidth <= 480){
+      slider_prev = 2;
+    }
+    else {
+        slider_prev = 4;
+    }
+}
+checkWidth();
+
 var swiper = new Swiper('.swiper-container', {
-    slidesPerView: 4,
+    slidesPerView: slider_prev,
     spaceBetween: 30,
     slidesPerGroup: 2,
     loop: true,
@@ -13,3 +26,6 @@ var swiper = new Swiper('.swiper-container', {
         prevEl: '.swiper-button-prev',
     },
 });
+
+
+
