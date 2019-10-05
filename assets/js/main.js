@@ -28,4 +28,9 @@ var swiper = new Swiper('.swiper-container', {
 });
 
 
+let burger = document.getElementById("menu");
+
+burger.addEventListener("click",function(){
+  this.classList.toggle("change");
+})
 
