@@ -759,7 +759,7 @@ body {
         
     }
     .hero_p::before {
-        content: "  ";
+        content: "1  ";
         display: block;
         width: 100px;
         height: 1px;
@@ -767,6 +767,7 @@ body {
         position: relative;
         left: -150px;
         top: 10px;
+        color: transparent;
         z-index: 5
     }
     .hero_image {
