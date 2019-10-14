@@ -1,0 +1,147 @@
+@font-face {
+    font-family: FiraGo;
+    src: url('../font/FiraGO-Regular.ttf');
+}
+
+@font-face {
+    font-family: Prata;
+    src: url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+}
+
+@font-face {
+    font-family: light;
+    src: url("../font/FiraGO-Light.ttf");
+}
+
+@font-face {
+    font-family: ragac;
+    src: url('../font/alk-sanet.ttf');
+}
+
+@font-face {
+    font-family: caps;
+    src: url('../font/caps.ttf');
+}
+
+body {
+    background-color: #141519;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    color: #FFF
+}
+
+.navigation {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navigation_list {
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+    height: 35px;
+}
+
+.navigation_list li {
+    display: flex;
+}
+
+.navigation_list li a {
+    color: #FFF;
+    font-family: caps, sans-serif;
+    text-transform: uppercase;
+}
+
+.navigation_list li:hover {
+    border-bottom: 2px solid #aa926b;
+}
+body > header > nav > ul:nth-child(1) > li:nth-child(2) > a {
+    border-bottom: 2px solid #aa926b;
+}
+
+
+.logo {
+    width: 100px;
+}
+h1{
+
+    display: inline-block;
+    width: 276px;
+    font-size: 35px;
+    font-family: caps, sans-serif;
+    border-bottom: 2px solid #aa926b;
+}
+section {
+   margin-top: 100px;
+  
+      
+}
+p {
+    font-size: 18px;
+    font-family: light, sans-serif;
+    width: 90%;
+}
+article {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 150px;
+    /* background-image: url("../images/biglogo.png") */
+}
+.imageblock{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.img1 {
+    width: 750px;
+}
+.img2 {
+    width: 750px;
+    margin-right: 50px;
+}
+.hero_image {
+    width: 100%;
+    height: calc(100vh);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -3;
+    object-fit: cover;
+}
+
+.overlay_image{
+    width: 100%;
+    height: calc(100vh);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    object-fit: cover;
+    opacity: 85%;
+}
+
+/* .logo_image{
+    width: 100%;
+    height: calc(100vh);
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    object-fit: cover;
+    
+} */
+

@@ -271,7 +271,7 @@ body {
 }
 
 .media {
-    width: 400px;
+    width: 100%;
     display: flex;
     align-items: center;
 }
@@ -315,17 +315,9 @@ body {
     left: 10px;
 }
 
-/* @media only screen and (min-width: 300px) {
-
-    .media {
-        width: 320px;
-    }
-
-    .hero_p {
-        font-size: 10px;
-    }
-
-} */
+.swiper-pagination-bullet-active {
+    background: #aa926b
+}
 
 
 
@@ -335,6 +327,11 @@ body {
     .navigation {
         display: none;
     }
+    .swiper-pagination {
+        display: block;
+        top: 160px;
+    }
+  
 
     
 
@@ -352,7 +349,7 @@ body {
         flex-direction: column;
         align-items: center;
         font-family: FiraGo, sans-serif;
-        font-size: 14px;
+        font-size: 12px;
     }
   
   
@@ -391,6 +388,7 @@ body {
         left: 0;
         z-index: -1;
         object-fit: cover;
+        object-position: right;
         text-align: center;
     }
     .hero_h1 {
@@ -445,7 +443,7 @@ body {
     }
     
     .wine_mukuzani img {
-        width: 85%;
+        width: 100%;
      }
     .wines_div1 {
       background-color: #1e212a;
@@ -459,6 +457,7 @@ body {
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
+       
         
     }
      
@@ -559,7 +558,7 @@ body {
         align-items: center;
     }
     .address_hotline {
-        width: 400px;
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -585,7 +584,7 @@ body {
     .mukuzani>p {
         margin-left: 0px;
         text-align: center;
-        width: 350px;
+        width: 100%;
     }
     .mukuzani>h2 {
         margin-left: 0px;
@@ -624,7 +623,7 @@ body {
     
     .xvanchkara>p {
         margin-left: 0px;
-        width: 350px;
+        width: 100%;
         text-align: center
     }
     .xvanchkara>a {
@@ -644,7 +643,7 @@ body {
         transition: background-color 300ms ease;
     }
     .wine_xvanchkara img {
-        width: 85%;
+        width: 100%;
     }
     .see_more1 {
         border: 1px solid #aa926b;
@@ -774,16 +773,17 @@ address {
 .hotline a {
     font-family: FiraGo, sans-serif;
 }
+
+
 }
-
-
-
-
 
 @media only screen and (min-width: 481px) {
  
     .navigation {
         display: flex;
+    }
+    .swiper-pagination {
+        display: none;
     }
     .hero_div {
         display: block;
@@ -890,11 +890,12 @@ address {
    
     
     .mukuzani {
-        height: 290px;
+        /* height: 290px; */
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         justify-content: space-around;
+        width: 93%;
     }
     .wine_xvanchkara {
         display: flex;
@@ -995,11 +996,11 @@ address {
         justify-content: space-between;
     }
     .address_hotline {
-        width: 400px;
+        /* height: px; */
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
     }
     .footer {
         margin-top: 50px;
@@ -1167,4 +1168,67 @@ address {
 
      
 }
+
+
+
+
+@media screen and (min-width: 290px) and (max-width: 350px) {
+    .swiper-pagination {
+        display: block;
+        
+    }
+    .wine_mukuzani img {
+        width: 100%;
+    }
+    .wine_xvanchkara img{
+        width: 100%;
+    }
+    .hero_p {
+        font-size: 12px;
+    }
+    .about_h2 {
+        font-size: 23px;
+    } 
+    .about_h2::after{
+        content: "";
+        display: block;
+        width: 100px;
+        height: 1px;
+        background-color: #aa926b;
+        position: relative;
+        left: 80px;
+        top: 25px;
+        
+    }
+    .products_div h2{
+        font-size: 23px;
+    }
+    .products_div h2::before{
+        content: "";
+        display: block;
+        width: 100px;
+        height: 1px;
+        background-color: #aa926b;
+        position: relative;
+        top: 55px;
+        left: 70px;
+    }
+    .copyright {
+        font-size: 12px;
+    }
+    address{
+        font-size: 12px;
+    }
+    .hotline span {
+        font-size: 14px;
+    }
+}
+ 
+
+
+
+
+
+
+
 
