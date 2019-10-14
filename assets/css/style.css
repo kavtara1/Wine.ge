@@ -283,7 +283,8 @@ body {
 
 .hotline {
     display: flex;
-    flex-direction: column
+    flex-direction: column;
+    align-items: center;
 }
 .hotline span {
     font-family: caps, sans-serif;
@@ -331,7 +332,11 @@ body {
         display: block;
         top: 160px;
     }
-  
+    .burger_logo{
+        display: block;
+        width: 40px;
+        margin-left: 15px;
+    }
 
     
 
@@ -580,6 +585,7 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-bottom: 10px;
     }
     .mukuzani>p {
         margin-left: 0px;
@@ -996,7 +1002,6 @@ address {
         justify-content: space-between;
     }
     .address_hotline {
-        /* height: px; */
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -1165,6 +1170,11 @@ address {
       .hotline a {
           font-family: FiraGo, sans-serif;
       }
+      .burger_logo{
+        display: none;
+        width: 40px;
+        margin-left: 15px;
+    }
 
      
 }
@@ -1172,7 +1182,7 @@ address {
 
 
 
-@media screen and (min-width: 290px) and (max-width: 350px) {
+@media screen and (min-width: 290px) and (max-width: 360px) {
     .swiper-pagination {
         display: block;
         
@@ -1221,6 +1231,11 @@ address {
     }
     .hotline span {
         font-size: 14px;
+    }
+    .burger_logo{
+        display: block;
+        width: 40px;
+        margin-left: 15px;
     }
 }
  

@@ -74,14 +74,7 @@ body > header > nav > ul:nth-child(1) > li:nth-child(2) > a {
 .logo {
     width: 100px;
 }
-h1{
 
-    display: inline-block;
-    width: 276px;
-    font-size: 35px;
-    font-family: caps, sans-serif;
-    border-bottom: 2px solid #aa926b;
-}
 section {
    margin-top: 100px;
   
@@ -92,20 +85,8 @@ p {
     font-family: light, sans-serif;
     width: 90%;
 }
-article {
-    height: 700px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-left: 150px;
-    /* background-image: url("../images/biglogo.png") */
-}
-.imageblock{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
+
+
 .img1 {
     width: 750px;
 }
@@ -129,19 +110,406 @@ article {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: -2;
-    object-fit: cover;
-    opacity: 85%;
-}
-
-/* .logo_image{
-    width: 100%;
-    height: calc(100vh);
-    position: relative;
-    top: 0;
-    left: 0;
     z-index: -1;
     object-fit: cover;
+    opacity: 0.99;
+}
+
+
+
+
+.burger {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: fixed;
+    right: 40px;
+    top: 20px;
+    width: 20px;
+    z-index: 8;
+    }
+.burger_item  {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color:#aa926b;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    margin-right: 15px
+    }
     
-} */
+
+
+    .change #menu {
+background-color: gray;
+
+}
+#bar1 {
+transform: translateY(-3px);
+}
+#bar3 {
+transform: translateY(3px);
+}
+
+
+.change #bar1{
+ 
+transform: translateY(3px) rotateZ(-45deg);
+
+}
+
+.change #bar3 {
+
+transform: translateY(-3px)  rotate(45deg);
+
+}
+.change #bar2 {
+opacity: 0;
+}
+.overlay {
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #141519;
+    z-index: 7;
+    overflow: hidden;
+   
+}
+
+.burger_list {
+    height: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+.burger_list li a {
+    color: #aa926b;
+    font-family: caps, sans-serif;
+}
+/* footer */
+
+.footer {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.footer_nav ul {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer_nav ul li a {
+    transition: color 300ms ease;
+    font-family: caps, sans-serif;
+}
+
+.footer_nav ul li a:hover {
+    color: #aa926b;
+    transition: color 300ms ease;
+}
+
+
+
+.foricons {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%
+}
+
+
+
+  .hotline a {
+      font-family: FiraGo, sans-serif;
+  }
+ 
+  
+.hotline a {
+    font-family: FiraGo, sans-serif;
+}
+.address span {
+    font-family: caps, sans-serif;
+}
+.hotline span {
+    font-family: caps, sans-serif;
+}
+
+
+@media only screen and (min-width: 0px) {
+
+    .burger {
+        display: flex;
+    }
+
+    .navigation {
+        display: none;
+    }
+    .logo_image{
+        height: 45%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: -2;
+        margin-top: 70px;
+    }
+    .imageblock{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 350px;
+    }
+    article {
+        height: 1200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 0px;
+        text-align: center;
+        
+    }
+    .img1 {
+        width: 100%
+    }
+    .img2 {
+        width: 100%;
+        margin-right: 0px;
+    }
+    .footer_nav {
+       display: none;
+    }
+    .contact {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;    
+    }
+    .media_icons {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    .address_hotline {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .copyright {
+        font-family: FiraGo, sans-serif;
+        font-size: 15px;
+        }
+    h1{
+
+            display: inline-block;
+            width: 145px;
+            font-size: 18px;
+            font-family: caps, sans-serif;
+            border-bottom: 2px solid #aa926b;
+        }
+        .address {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-style: normal;
+            font-family: FiraGO, sans-serif;
+            margin-bottom: 10px;
+        }
+        address {
+            font-style: normal;
+            font-family: FiraGO, sans-serif;
+            font-size: 15px;
+          }
+          
+.hotline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.burger_logo{
+    display: block;
+    width: 40px;
+    margin-left: 15px;
+}
+    
+}
+
+
+@media only screen and (min-width: 481px) {
+
+  
+    h1{
+
+        display: inline-block;
+        width: 276px;
+        font-size: 35px;
+        font-family: caps, sans-serif;
+        border-bottom: 2px solid #aa926b;
+    }
+
+    .burger {
+
+        display: none;
+        }
+        
+        .navigation {
+            display: flex;
+        }
+        .burger_logo{
+            display: none;
+            width: 40px;
+            margin-left: 15px;
+        }
+        .logo_image{
+            height: 80%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: -2;
+            margin-top: 70px;
+        }
+        .imageblock{
+            width: 95%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        
+        article {
+            height: 700px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-left: 150px;
+            text-align: start;
+            
+        }
+        .img1 {
+            width: 750px;
+        }
+        .img2 {
+            width: 750px;
+            margin-right: 50px;
+        }
+        .footer_nav {
+            width: 65%;
+            display: flex;
+            justify-content: center;
+            border-top: 1px solid #3c3d3f;
+            border-bottom: 1px solid #3c3d3f;
+            padding: 20px 20px;
+        }
+        
+        .contact {
+            width: 70%;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;    
+        }
+        .media_icons {
+            width: 550px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-bottom: 0px;
+        }
+        .address_hotline {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .copyright {
+            font-family: FiraGo, sans-serif;
+            font-size: 16px;
+            }
+
+            .address {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                font-style: normal;
+                font-family: FiraGO, sans-serif;
+                margin-bottom: 0px;
+
+            }
+            address {
+                font-style: normal;
+                font-family: FiraGO, sans-serif
+              }
+              
+.hotline {
+    display: flex;
+    flex-direction: column;
+}
+}   
+
+@media screen and (min-width: 290px) and (max-width: 350px) {
+
+    .copyright {
+        font-family: FiraGo, sans-serif;
+        font-size: 13px;
+    }
+    address {
+        font-style: normal;
+        font-family: FiraGO, sans-serif;
+        font-size: 14px;
+    }
+    .imageblock {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 320px;
+    }
+}
+
+@media screen and (min-width: 351px) and (max-width: 375px) {
+    .imageblock {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 370px;
+    }
+
+}
+
 
