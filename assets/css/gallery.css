@@ -66,10 +66,10 @@ body {
 .navigation_list li:hover {
     border-bottom: 2px solid #aa926b;
 }
-body > header > nav > ul:nth-child(1) > li:nth-child(3) > a {
+body > header > nav > ul:nth-child(1) > li:nth-child(4) > a {
     border-bottom: 2px solid #aa926b;
 }
-body > header > nav > ul:nth-child(1) > li:nth-child(3) > a:hover {
+body > header > nav > ul:nth-child(1) > li:nth-child(4) > a:hover {
     border-bottom: 2px solid transparent;
 }
 
@@ -90,13 +90,7 @@ p {
 }
 
 
-.img1 {
-    width: 750px;
-}
-.img2 {
-    width: 750px;
-    margin-right: 50px;
-}
+
 .hero_image {
     width: 100%;
     height: calc(100vh);
@@ -428,50 +422,42 @@ opacity: 0;
 }
 
 /* here */
-
-section {
+.first_div {
+    height: 550px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin-left: 150px;
-    display: flex;
-    /* height: calc(100vh - 70px); */
+    align-items: center;
+
 }
 
-.wine_images{
-    margin-left: 150px;
-    width: 55%;
+.mfp-arrow-right:after {
+    border-left: 17px solid #aa926b;
+    margin-left: 39px;
+}
+section {
+ display: flex;
+}
+.popup-gallery{
+    width: 70%;
     display: flex;
     flex-wrap: wrap;
+    margin-left: 100px;
 }
-
-.wine_images li img {
-   
-   width: 80%;
-    margin: 15px;
-}
-
-.wine_images li {
-    width: 23%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+.popup-gallery img {
+    margin: 15px 15px;
 }
 h1 {
     display: inline-block;
+    width: 145px;
     font-family: caps, sans-serif;
     font-size: 25px;
     border-bottom: 2px solid #aa926b;
     padding-bottom: 15px;;
     letter-spacing: 2px;
 }
-.my_list  {
-    margin-top: 25px;
-    margin-bottom: 50px;
-}
-.my_list li {
-    font-family: caps,sans-serif;
-    margin-top:15px;
-    cursor: pointer;
-}
+
 /* here */
 }
 
