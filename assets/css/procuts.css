@@ -271,6 +271,10 @@ opacity: 0;
     .burger {
         display: flex;
     }
+}
+.logo_div {
+    width: 50px;
+}
 
     .navigation {
         display: none;
@@ -343,7 +347,7 @@ opacity: 0;
     display: block;
     width: 40px;
     margin-left: 15px;
-}
+
     
 }
 
@@ -478,6 +482,11 @@ h1 {
     cursor: pointer;
 }
 /* here */
+
+
+image {
+    position: relative;
+}
 }
 
 

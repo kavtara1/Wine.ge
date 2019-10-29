@@ -1,9 +1,9 @@
 $(document).ready(function(){
     $(".full_wiev").click(function(){
 		$(this).siblings(".article_p").find(".p_span2").show()
-			$(this).hide();
-		});
+		$(this).hide();
 	});
+});
 
 	let burger = document.getElementById("menu");
 	let overlay = document.getElementById("burger_overlay");

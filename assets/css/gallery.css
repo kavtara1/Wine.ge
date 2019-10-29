@@ -265,6 +265,9 @@ opacity: 0;
     .burger {
         display: flex;
     }
+    .logo_div {
+        width: 50px;
+    }
 
     .navigation {
         display: none;
@@ -472,7 +475,7 @@ section {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    /*justify-content: center; */
+
 }
 .popup-gallery{
     width: 70%;
@@ -485,6 +488,25 @@ section {
     width: 350px;
     margin: 15px 15px;
 }
+.img_div {
+    position: relative;
+    /* z-index: 9999; */
+}
+.img_div::before {
+    display:none;
+    content:url("../images/zoom.png");
+    transform: scale(0.05);
+    position: absolute;
+    z-index: 999;
+}
+.img_div.special::before {
+    display:inline-block;
+    content:url("../images/zoom.png");
+    transform: scale(0.05);
+    position: absolute;
+    z-index: 999;
+}
+
 h1 {
     display: inline-block;
     width: 145px;

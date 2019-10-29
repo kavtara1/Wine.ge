@@ -265,6 +265,9 @@ opacity: 0;
     .burger {
         display: flex;
     }
+    .logo_div {
+        width: 50px;
+    }
 
     .navigation {
         display: none;
@@ -381,7 +384,7 @@ article :nth-child(1){
 
 .news_h1 {
     display: inline-block;
-    width: 145px;
+    width: 170px;
     font-family: caps, sans-serif;
     font-size: 25px;
     border-bottom: 2px solid #aa926b;
@@ -407,11 +410,13 @@ article :nth-child(1){
 }
 .span_div span {
     color: #141519;
-    font-size: 14px;
+    font-size: 12px;
 }
 .p_span1, .p_span2 {
     color: #141519;
-    font-family: ForaGo, sans-serif
+    font-family: ForaGo, sans-serif;
+    font-size: 17px;
+    margin: 0;
 }
 
 .p_span2 {
@@ -652,7 +657,7 @@ display: none;
     }
 }
 
-@media screen and (min-width: 351px) and (max-width: 375px) {
+@media screen and (min-width: 351px) and (max-width: 410px) {
     .imageblock {
         width: 95%;
         display: flex;

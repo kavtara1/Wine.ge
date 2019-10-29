@@ -16,7 +16,15 @@ $(document).ready(function() {
 			}
 		}
 	});
+
+
+	$(".gallery_img").hover(function(){
+		$(this).parents(".img_div").toggleClass("special")
+	
+	   });
 });
+
+
 
 let burger = document.getElementById("menu");
 let overlay = document.getElementById("burger_overlay");
