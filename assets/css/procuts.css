@@ -218,9 +218,11 @@ opacity: 0;
     align-items: center;
 }
 
+
 .footer_nav ul li a {
     transition: color 300ms ease;
     font-family: caps, sans-serif;
+    font-size: 1vw;
 }
 
 .footer_nav ul li a:hover {
@@ -281,6 +283,9 @@ opacity: 0;
         transform: translate(-50%, -50%);
         z-index: -2;
         margin-top: 70px;
+    }
+    .logo_div {
+        width: 50px;
     }
   
   

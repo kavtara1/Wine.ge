@@ -256,6 +256,7 @@ body {
 .footer_nav ul li a {
     transition: color 300ms ease;
     font-family: caps, sans-serif;
+    font-size: 1vw;
 }
 
 .footer_nav ul li a:hover {
@@ -336,6 +337,9 @@ body {
         display: block;
         width: 40px;
         margin-left: 15px;
+    }
+    .logo_div {
+        width: 50px;
     }
 
     
