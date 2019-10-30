@@ -34,26 +34,38 @@ body {
     padding: 0;
     text-decoration: none;
     list-style: none;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     color: #FFF
 }
 
 .navigation {
     width: 100%;
     height: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .navigation_list {
     width: 550px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     height: 35px;
 }
 
 .navigation_list li {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -84,6 +96,8 @@ body {
     margin-top: 50px;
     position: relative;
     left: 100px;
+    -webkit-transition: background-color 300ms ease;
+    -o-transition: background-color 300ms ease;
     transition: background-color 300ms ease;
     font-family: caps, sans-serif
 }
@@ -91,6 +105,8 @@ body {
 .see_more:hover {
     background-color: #aa926b;
     color: #141519;
+    -webkit-transition: background-color 300ms ease;
+    -o-transition: background-color 300ms ease;
     transition: background-color 300ms ease;
 }
 
@@ -103,17 +119,34 @@ body {
 
 .mukuzani {
     height: 290px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-around;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     
 }
 .products {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 
 
@@ -126,8 +159,14 @@ body {
 
 .products_list {
     width: 550px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-transition: color 300ms ease;
+    -o-transition: color 300ms ease;
     transition: color 300ms ease;
 }
 
@@ -137,6 +176,8 @@ body {
 
 .products_list li a:hover {
     color: #aa926b;
+    -webkit-transition: color 300ms ease;
+    -o-transition: color 300ms ease;
     transition: color 300ms ease;
 }
 
@@ -181,10 +222,19 @@ body {
 
 .news_div {
     height: 550px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     width: 85%;
 }
 
@@ -212,45 +262,73 @@ body {
     position: relative;
     top: -15px;
     left: 26px;
-    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+            transform: rotate(180deg);
 }
 
 
 .footer_nav ul {
     width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 
 .footer_nav ul li a:hover {
     color: #aa926b;
+    -webkit-transition: color 300ms ease;
+    -o-transition: color 300ms ease;
     transition: color 300ms ease;
 }
 
 .contact {
     width: 70%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .media {
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .fb {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 100px;
 }
 
 .hotline {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .hotline span {
     font-family: caps, sans-serif;
@@ -262,10 +340,19 @@ body {
 .news ul li {
     width: 290px;
     height: 320px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 .news ul li p {
     text-align: center;
@@ -311,18 +398,34 @@ body {
     
 
     .hero_div {
+       display: -webkit-box;
+       display: -ms-flexbox;
        display: flex;
-       flex-direction: column;
-       align-items: center;
-       justify-content: center;
+       -webkit-box-orient: vertical;
+       -webkit-box-direction: normal;
+           -ms-flex-direction: column;
+               flex-direction: column;
+       -webkit-box-align: center;
+           -ms-flex-align: center;
+               align-items: center;
+       -webkit-box-pack: center;
+           -ms-flex-pack: center;
+               justify-content: center;
        
     }
     
     .hero_p {
         height: 50px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         font-family: FiraGo, sans-serif;
         font-size: 12px;
     }
@@ -335,9 +438,14 @@ body {
         width: 150px;
     }
     .hero {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        align-self: center;
-        justify-content: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         width: 100%;
         height: 350px;
         font-family: FiraGo, sans-serif;
@@ -362,8 +470,10 @@ body {
         top: 0;
         left: 0;
         z-index: -1;
-        object-fit: cover;
-        object-position: right;
+        -o-object-fit: cover;
+           object-fit: cover;
+        -o-object-position: right;
+           object-position: right;
         text-align: center;
     }
     .hero_h1 {
@@ -376,10 +486,18 @@ body {
     .about {
         width: 100%;
         height: 1000px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         margin-bottom: 70px;
     }
     .about_h2 {
@@ -400,19 +518,37 @@ body {
 
     .about_list li {
         height: 200px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         text-align: center;
 
     }
     .wine_mukuzani {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         width: 100%;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
         height: 480px;
 
     }
@@ -428,29 +564,54 @@ body {
 
     .mukuzani {
         height: 290px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
        
         
     }
      
 
      .wine_xvanchkara {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         width: 100%;
         margin-top: 30px;
     }
     .xvanchkara {
         height: 290px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
     }
     .swiper-button-next::after {
         display: none;
@@ -463,11 +624,19 @@ body {
     }
     .products_div {
         width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         height: 300px;
-        justify-content: space-around;
-        align-items: center;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     .video {
         position: relative;
@@ -482,24 +651,45 @@ body {
         left: 0;
         right: 0;
         width: 100%;
-        object-fit: cover;
-        align-items: center;
+        -o-object-fit: cover;
+           object-fit: cover;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     .news ul {
         width: 75%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         height: 1500px;
         
     }
     .news {
         height: 1380px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
       
     }
     .footer_nav {
@@ -508,36 +698,78 @@ body {
 
     .contact {
         width: 70%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     .media_icons {
         width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
     .media {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         
     }
     .foricons {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     .address_hotline {
         width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         margin-top: 35px;
     }
     .address span {
@@ -545,16 +777,32 @@ body {
     }
     .footer {
         margin-top: 50px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         width: 100%;
     }
     .address {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         margin-bottom: 10px;
     }
     .mukuzani>p {
@@ -603,12 +851,17 @@ body {
         text-align: center
     }
     .xvanchkara>a {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
         border: 1px solid #aa926b;
         padding: 15px;
         margin-top: 50px;
         position: relative;
+        -webkit-transition: background-color 300ms ease;
+        -o-transition: background-color 300ms ease;
         transition: background-color 300ms ease;
         font-family: caps, sans-serif;
     }
@@ -616,6 +869,8 @@ body {
     .xvanchkara>a:hover {
         background-color: #aa926b;
         color: #141519;
+        -webkit-transition: background-color 300ms ease;
+        -o-transition: background-color 300ms ease;
         transition: background-color 300ms ease;
     }
     .wine_xvanchkara img {
@@ -627,12 +882,16 @@ body {
         margin-top: 50px;
         position: relative;
         left: 0px;
+        -webkit-transition: background-color 300ms ease;
+        -o-transition: background-color 300ms ease;
         transition: background-color 300ms ease;
         font-family: caps, sans-serif
     }
     .see_more1:hover {
         background-color: #aa926b;
         color: #141519;
+        -webkit-transition: background-color 300ms ease;
+        -o-transition: background-color 300ms ease;
         transition: background-color 300ms ease;
     }
     .news-h2::after {
@@ -660,9 +919,16 @@ body {
 
 
 	.burger {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: end;
+            -ms-flex-pack: end;
+                justify-content: flex-end;
         position: fixed;
         right: 40px;
         top: 20px;
@@ -675,6 +941,8 @@ body {
 		height: 3px;
 		background-color:#aa926b;
 		border-radius: 5px;
+		-webkit-transition: 0.3s ease;
+		-o-transition: 0.3s ease;
 		transition: 0.3s ease;
 		margin-right: 15px
         }
@@ -686,22 +954,34 @@ body {
 
 }
 #bar1 {
-	transform: translateY(-3px);
+	-webkit-transform: translateY(-3px);
+	    -ms-transform: translateY(-3px);
+	        transform: translateY(-3px);
 }
 #bar3 {
-	transform: translateY(3px);
+	-webkit-transform: translateY(3px);
+	    -ms-transform: translateY(3px);
+	        transform: translateY(3px);
 }
 
 
 .change #bar1{
 	 
-	transform: translateY(3px) rotateZ(-45deg);
+	-webkit-transform: translateY(3px) rotateZ(-45deg);
+	 
+	    -ms-transform: translateY(3px) rotate(-45deg);
+	 
+	        transform: translateY(3px) rotateZ(-45deg);
 	
 	}
 
 .change #bar3 {
 	
-	transform: translateY(-3px)  rotate(45deg);
+	-webkit-transform: translateY(-3px)  rotate(45deg);
+	
+	    -ms-transform: translateY(-3px)  rotate(45deg);
+	
+	        transform: translateY(-3px)  rotate(45deg);
 	
 }
 .change #bar2 {
@@ -725,11 +1005,22 @@ body {
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
         
 
     }
@@ -756,6 +1047,8 @@ address {
 @media only screen and (min-width: 481px) {
  
     .navigation {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
     }
     .swiper-pagination {
@@ -774,9 +1067,16 @@ address {
         margin-left: 150px;
         margin-bottom: 100px;
         height: 25px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        align-items: flex-start;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
         font-size: 15px;
     }
     .wines_div2 {
@@ -816,7 +1116,8 @@ address {
         top: 0;
         left: 0;
         z-index: -1;
-        object-fit: cover;
+        -o-object-fit: cover;
+           object-fit: cover;
     }
     .hero_h1 {
         font-size: 63px;
@@ -829,10 +1130,18 @@ address {
     .about {
         width: 100%;
         height: 350px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         margin-bottom: 70px;
     }
     .about_h2 {
@@ -842,22 +1151,39 @@ address {
     }
 
     .about_list {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
        
     }
     .about_list li {
         height: 200px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-        align-items: center;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         text-align: center;
     }
     .wine_mukuzani {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         width: 100%;
-        justify-content: space-around;
-        flex-direction: row;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
         height: 290px;
     }
   
@@ -872,17 +1198,31 @@ address {
     
     .mukuzani {
         /* height: 290px; */
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-around;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
         width: 93%;
     }
     .wine_xvanchkara {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: row;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
         width: 100%;
-        justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
         margin-top: 30px;
     }
     .wines_div2 {
@@ -891,10 +1231,18 @@ address {
     }
     .xvanchkara {
         height: 290px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-around;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
     }
 
     .swiper-button-next::after {
@@ -904,18 +1252,32 @@ address {
         display: block;
     }
     .products_list {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         width: 550px;
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-transition: color 300ms ease;
+        -o-transition: color 300ms ease;
         transition: color 300ms ease;
     }
     .products_div {
         width: 650px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         height: 350px;
-        justify-content: space-around;
-        align-items: center;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     .video {
         position: relative;
@@ -933,72 +1295,147 @@ address {
     }
     .news ul {
         width: 75%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
     }
     .news {
         height: 450px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
     }
     .news ul li {
         width:320px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        align-items: flex-start;
-        flex-direction: column;
-        justify-content: space-between;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
     }
     .news ul li p {
         text-align: left;
     }
     .footer_nav {
         width: 65%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         border-top: 1px solid #3c3d3f;
         border-bottom: 1px solid #3c3d3f;
         padding: 20px 20px;
     }
     .contact {
         width: 70%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: center;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
 
     .media_icons {
         width: 550px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
     }
     .address_hotline {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-around;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
     }
     .footer {
         margin-top: 50px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     .media {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         width: 100%
     }
     .address {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        align-items: flex-start;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
     }
     .wine_mukuzani img {
        width: 585px;
@@ -1066,13 +1503,18 @@ address {
         font-family: light, sans-serif
     }
     .xvanchkara>a {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        align-self: flex-end;
+        -ms-flex-item-align: end;
+            align-self: flex-end;
         border: 1px solid #aa926b;
         padding: 15px;
         margin-top: 50px;
         position: relative;
         right: 100px;
+        -webkit-transition: background-color 300ms ease;
+        -o-transition: background-color 300ms ease;
         transition: background-color 300ms ease;
         font-family: caps, sans-serif;
     }
@@ -1080,6 +1522,8 @@ address {
     .xvanchkara>a:hover {
         background-color: #aa926b;
         color: #141519;
+        -webkit-transition: background-color 300ms ease;
+        -o-transition: background-color 300ms ease;
         transition: background-color 300ms ease;
     }
     .wine_xvanchkara img {
@@ -1101,12 +1545,16 @@ address {
         margin-top: 50px;
         position: relative;
         left: 150px;
+        -webkit-transition: background-color 300ms ease;
+        -o-transition: background-color 300ms ease;
         transition: background-color 300ms ease;
         font-family: caps, sans-serif
     }
     .see_more1:hover {
         background-color: #aa926b;
         color: #141519;
+        -webkit-transition: background-color 300ms ease;
+        -o-transition: background-color 300ms ease;
         transition: background-color 300ms ease;
     }
     .news-h2::after {
@@ -1151,6 +1599,8 @@ address {
         margin-left: 15px;
     }
     .footer_nav ul li a {
+        -webkit-transition: color 300ms ease;
+        -o-transition: color 300ms ease;
         transition: color 300ms ease;
         font-family: caps, sans-serif;
         font-size: 0.8vw;
@@ -1229,9 +1679,16 @@ address {
 
     .news ul {
         width: 75%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     height: 1400px;
     }
 
@@ -1239,10 +1696,16 @@ address {
         font-size: 50px;
     }
     .wine_mukuzani {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         width: 100%;
-        justify-content: space-around;
-        flex-direction: column;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         height: 550px;
 }
 .wines_div1 {
@@ -1259,10 +1722,16 @@ address {
 }
 
 .wine_xvanchkara {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     width: 100%;
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     margin-top: 30px;
 }
 .about {
@@ -1270,8 +1739,13 @@ address {
 }
 
 .about_list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
  
 }
 .hero_div{
@@ -1289,7 +1763,9 @@ address {
 }
 .news ul li {
 width: 255px;
-align-items:center;
+-webkit-box-align:center;
+    -ms-flex-align:center;
+        align-items:center;
 }
 .news ul li p{
     text-align: center;
@@ -1304,36 +1780,78 @@ align-items:center;
 /* footer Resonsive */
 .contact {
     width: 70%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .media_icons {
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 .media {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     
 }
 .foricons {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .address_hotline {
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-top: 35px;
 }
 .address span {
@@ -1341,16 +1859,32 @@ align-items:center;
 }
 .footer {
     margin-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 100%;
 }
 .address {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-bottom: 10px;
 }
 /* footer Resonsive */
@@ -1368,9 +1902,16 @@ align-items:center;
 
     .news ul {
         width: 75%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     height: 1400px;
     }
 
@@ -1378,10 +1919,16 @@ align-items:center;
         font-size: 70px;
     }
     .wine_mukuzani {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         width: 100%;
-        justify-content: space-around;
-        flex-direction: column;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         height: 550px;
 }
 .hero_p {
@@ -1401,10 +1948,16 @@ align-items:center;
 }
 
 .wine_xvanchkara {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     width: 100%;
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     margin-top: 30px;
 }
 .about {
@@ -1412,8 +1965,13 @@ align-items:center;
 }
 
 .about_list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
  
 }
 .hero_div{
@@ -1431,7 +1989,9 @@ align-items:center;
 }
 .news ul li {
 width: 255px;
-align-items:center;
+-webkit-box-align:center;
+    -ms-flex-align:center;
+        align-items:center;
 }
 .news ul li p{
     text-align: center;
@@ -1457,36 +2017,78 @@ height: 375px;
 /* footer Resonsive */
 .contact {
     width: 70%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .media_icons {
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 .media {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     
 }
 .foricons {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .address_hotline {
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-top: 35px;
 }
 .address span {
@@ -1494,19 +2096,34 @@ height: 375px;
 }
 .footer {
     margin-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 100%;
 }
 .address {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-bottom: 10px;
 }
 /* footer Resonsive */
 }
-
 
