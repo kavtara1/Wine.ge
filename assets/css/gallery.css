@@ -4,11 +4,6 @@
 }
 
 @font-face {
-    font-family: Prata;
-    src: url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-}
-
-@font-face {
     font-family: light;
     src: url("../font/FiraGO-Light.ttf");
 }
