@@ -57,11 +57,7 @@ body {
     display: flex;
 }
 
-.navigation_list li a {
-    color: #FFF;
-    font-family: caps, sans-serif;
-    text-transform: uppercase;
-}
+
 
 .navigation_list li:hover {
     border-bottom: 2px solid #aa926b;
@@ -76,20 +72,11 @@ body {
     height: calc(100vh - 100px)
 }
 
-
-
-
-
 .hero_span {
     color: #aa926b;
     font-family: caps, sans-serif;
     font-size: 12px;
 }
-
-
-
-
-
 
 .see_more {
     border: 1px solid #aa926b;
@@ -122,12 +109,6 @@ body {
     justify-content: space-around;
     
 }
-
-
-
-
-
-
 .products {
     display: flex;
     align-items: center;
@@ -198,9 +179,6 @@ body {
 /* slider */
 
 
-
-
-
 .news_div {
     height: 550px;
     display: flex;
@@ -210,15 +188,9 @@ body {
     width: 85%;
 }
 
-
-
 .news-h2 {
     font-family: caps, sans-serif;
 }
-
-
-
-
 
 .news ul li img {
     width: 250px;
@@ -244,8 +216,6 @@ body {
 }
 
 
-
-
 .footer_nav ul {
     width: 80%;
     display: flex;
@@ -253,11 +223,6 @@ body {
     align-items: center;
 }
 
-.footer_nav ul li a {
-    transition: color 300ms ease;
-    font-family: caps, sans-serif;
-    font-size: 1vw;
-}
 
 .footer_nav ul li a:hover {
     color: #aa926b;
@@ -341,6 +306,7 @@ body {
     .logo_div {
         width: 50px;
     }
+    
 
     
 
@@ -818,7 +784,12 @@ address {
         background-color: #020202;
     }
 
-   
+   .navigation_list li a {
+    color: #FFF;
+    font-family: caps, sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+}
     
     .hero {
         width: 100%;
@@ -1179,7 +1150,11 @@ address {
         width: 40px;
         margin-left: 15px;
     }
-
+    .footer_nav ul li a {
+        transition: color 300ms ease;
+        font-family: caps, sans-serif;
+        font-size: 0.8vw;
+    }
      
 }
 
@@ -1242,12 +1217,296 @@ address {
         margin-left: 15px;
     }
 }
+
+@media screen and (min-width: 700px) and (max-width: 800px) {
+
+    .mukuzani>p {
+        width:350px
+    }
+    .xvanchkara>p {
+        width:350px
+    }
+
+    .news ul {
+        width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 1400px;
+    }
+
+    .hero_h1 {
+        font-size: 50px;
+    }
+    .wine_mukuzani {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        flex-direction: column;
+        height: 550px;
+}
+.wines_div1 {
+    width: 75%;
+}
+.wines_div2 {
+    width: 75%;
+}
+.wine_mukuzani img{
+    width: 578px;
+}
+.wine_xvanchkara img{
+    width: 578px;
+}
+
+.wine_xvanchkara {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.about {
+    height: 1200px;
+}
+
+.about_list {
+    display: flex;
+    flex-direction: column;
  
+}
+.hero_div{
+    width: 500px;
+}
+
+.navigation_list li a{
+    font-size: 12px;
+}
+.news {
+    height: 1500px ;
+} 
+.video {
+    height: 320px;
+}
+.news ul li {
+width: 255px;
+align-items:center;
+}
+.news ul li p{
+    text-align: center;
+}
+.footer_nav{
+    width: 85%;
+}
+
+.footer_nav ul li a {
+    font-size: 1.34vw 
+}
+/* footer Resonsive */
+.contact {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.media_icons {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.foricons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.address_hotline {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+}
+.address span {
+    font-family: caps, sans-serif;
+}
+.footer {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+/* footer Resonsive */
+}
 
 
+@media screen and (min-width: 801px) and (max-width: 1100px) {
+
+    .mukuzani>p {
+        width:350px
+    }
+    .xvanchkara>p {
+        width:350px
+    }
+
+    .news ul {
+        width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 1400px;
+    }
+
+    .hero_h1 {
+        font-size: 70px;
+    }
+    .wine_mukuzani {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        flex-direction: column;
+        height: 550px;
+}
+.hero_p {
+    font-size: 21px;
+}
+.wines_div1 {
+    width: 75%;
+}
+.wines_div2 {
+    width: 75%;
+}
+.wine_mukuzani img{
+    width: 578px;
+}
+.wine_xvanchkara img{
+    width: 578px;
+}
+
+.wine_xvanchkara {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.about {
+    height: 1200px;
+}
+
+.about_list {
+    display: flex;
+    flex-direction: column;
+ 
+}
+.hero_div{
+    width: 700px;
+}
+
+.navigation_list li a{
+    font-size: 17px;
+}
+.news {
+    height: 1500px ;
+} 
+.video {
+    height: 320px;
+}
+.news ul li {
+width: 255px;
+align-items:center;
+}
+.news ul li p{
+    text-align: center;
+}
+.footer_nav{
+    width: 85%;
+}
+
+.footer_nav ul li a {
+    font-size: 1.34vw 
+}
+.wine_mukuzani img{
+    width: 767px;
+}
+.wine_xvanchkara img{
+    width: 767px;
+}
+.video {
+height: 375px;
+}
 
 
-
-
+/* footer Resonsive */
+.contact {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.media_icons {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.foricons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.address_hotline {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+}
+.address span {
+    font-family: caps, sans-serif;
+}
+.footer {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+/* footer Resonsive */
+}
 
 

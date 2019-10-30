@@ -385,6 +385,13 @@ section {
         .navigation {
             display: flex;
         }
+        .navigation_list li a {
+            color: #FFF;
+            font-family: caps, sans-serif;
+            text-transform: uppercase;
+            font-size: 18px;
+        }
+    
         .burger_logo{
             display: none;
             width: 40px;
@@ -576,4 +583,187 @@ h1 {
         width: 100px;
         margin: 15px;
     }
+}
+@media screen and (min-width: 700px) and (max-width: 800px) {
+
+    .logo_image {
+        height: 50%;
+    }
+
+    .popup-gallery img {
+        width: 170px;
+    }
+    /* navigation & lower nav */
+    .navigation_list li a {
+        font-size: 12px;
+    }
+    .navigation_list {
+        justify-content: space-around;
+    }
+    .footer_nav {
+        width: 85%;
+    }
+    .footer_nav ul li a {
+        font-size: 1.35vw;
+    }
+    .copyright {
+        text-align: center;
+    }
+      /* navigation & lower nav */
+
+     .first_div {
+         margin-left: 50px;
+     }
+     .popup-gallery {
+         margin-left: 30px;
+     }
+ 
+.contact {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.media_icons {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.foricons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.address_hotline {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+}
+.address span {
+    font-family: caps, sans-serif;
+}
+.footer {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+/* footer Resonsive */
+
+}
+
+@media screen and (min-width: 801px) and (max-width: 1100px) { 
+
+    .logo_image {
+        height: 50%;
+    }
+
+    .popup-gallery img {
+        width: 170px;
+    }
+    /* navigation & lower nav */
+    .navigation_list li a {
+        font-size: 12px;
+    }
+    .navigation_list {
+        justify-content: space-around;
+    }
+    .footer_nav {
+        width: 85%;
+    }
+    .footer_nav ul li a {
+        font-size: 1.35vw;
+    }
+    .copyright {
+        text-align: center;
+    }
+      /* navigation & lower nav */
+
+     .first_div {
+         margin-left: 50px;
+     }
+     .popup-gallery {
+         margin-left: 30px;
+     }
+    
+/* footer responsive */
+.copyright {
+    text-align: center;
+}
+
+    .contact {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .media_icons {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .media {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .foricons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .address_hotline {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 35px;
+    }
+    .address span {
+        font-family: caps, sans-serif;
+    }
+    .footer {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .address {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    /* footer Resonsive */
+
+
 }
