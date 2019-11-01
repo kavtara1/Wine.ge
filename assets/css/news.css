@@ -74,14 +74,13 @@ body {
 .navigation_list li:hover {
     border-bottom: 2px solid #aa926b;
 }
-body > header > nav > ul:nth-child(1) > li:nth-child(5) > a {
+
+ul:nth-child(3) > li:nth-child(1) > {
     border-bottom: 2px solid #aa926b;
 }
-body > header > nav > ul:nth-child(1) > li:nth-child(5) > a:hover {
-    border-bottom: 2px solid transparent;
+.news {
+    border-bottom: 2px solid #aa926b;
 }
-
-
 .logo {
     width: 100px;
 }

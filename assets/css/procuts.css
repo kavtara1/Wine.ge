@@ -76,12 +76,12 @@ body {
 .navigation_list li:hover {
     border-bottom: 2px solid #aa926b;
 }
-body > header > nav > ul:nth-child(1) > li:nth-child(3) > a {
+  li:nth-child(3)  {
     border-bottom: 2px solid #aa926b;
 }
-body > header > nav > ul:nth-child(1) > li:nth-child(3) > a:hover {
+/* body > header > nav > ul:nth-child(1) > li:nth-child(3) > a:hover {
     border-bottom: 2px solid transparent;
-}
+} */
 
 
 .logo {

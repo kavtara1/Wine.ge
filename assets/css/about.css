@@ -69,11 +69,8 @@ body {
 .navigation_list li:hover {
     border-bottom: 2px solid #aa926b;
 }
-body > header > nav > ul:nth-child(1) > li:nth-child(2) > a {
+ li:nth-child(2)  {
     border-bottom: 2px solid #aa926b;
-}
-body > header > nav > ul:nth-child(1) > li:nth-child(2) > a:hover {
-    border-bottom: 2px solid transparent;
 }
 
 

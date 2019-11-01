@@ -73,13 +73,11 @@ body {
 .navigation_list li:hover {
     border-bottom: 2px solid #aa926b;
 }
-body > header > nav > ul:nth-child(1) > li:nth-child(4) > a {
+ .gallery  {
     border-bottom: 2px solid #aa926b;
     
 }
-body > header > nav > ul:nth-child(1) > li:nth-child(4) > a:hover {
-    border-bottom: 0.1px solid transparent;
-}
+
 
 
 .logo {
