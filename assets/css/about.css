@@ -69,7 +69,7 @@ body {
 .navigation_list li:hover {
     border-bottom: 2px solid #aa926b;
 }
- li:nth-child(2)  {
+.about  {
     border-bottom: 2px solid #aa926b;
 }
 
