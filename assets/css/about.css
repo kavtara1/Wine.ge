@@ -272,7 +272,7 @@ opacity: 0;
     -o-transition: color 300ms ease;
     transition: color 300ms ease;
     font-family: caps, sans-serif;
-    font-size: 1vw;
+    font-size: 16px;
 }
 
 .footer_nav ul li a:hover {
