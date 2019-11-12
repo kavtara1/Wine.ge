@@ -190,7 +190,7 @@ body {
 }
 
 .swiper-button-prev:after {
-    color: #FFF;
+    color: #141519;
 }
 
 .swiper-button-prev:hover::after {
@@ -198,7 +198,7 @@ body {
 }
 
 .swiper-button-next:after {
-    color: #FFF;
+    color:  #141519;
 }
 
 .swiper-button-next:hover::after {
