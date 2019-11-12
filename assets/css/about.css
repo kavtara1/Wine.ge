@@ -530,6 +530,11 @@ opacity: 0;
         font-size: 18px;
     }
 
+    .main_text {
+        display: flex;
+        flex-direction: column;
+    }
+
     .burger {
 
         display: none;
