@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>ქართული ღვინო</title>
     <link rel="icon" href="assets/images/logo.png" type="image/gif" sizes="25x25">
-    <link rel="stylesheet" href="assets/css/gallery.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
 </head>
 <body>
@@ -17,12 +17,12 @@
                         <li> <a href="index.html"> მთავარი</a></li>
                         <li> <a href="about.html"> ჩვენს შესახებ </a></li>
                         <li> <a href="products.html"> პროდუქტი</a></li>
-                        <li class="gallery" > <a href="gallery.html"> გალერეა </a></li>
+                        <li> <a href="gallery.html"> გალერეა </a></li>
         
                     </ul>
                     <img class="logo" src="assets/images/logo.png" alt="logo">
                     <ul class="navigation_list">
-                        <li> <a href="news.html"> სიახლეები</a></li>
+                        <li class="news" ><a href="news.html"> სიახლეები</a></li>
                         <li> <a href=""> მედია</a></li>
                         <li> <a href=""> წარმოება </a></li>
                         <li> <a href="contact.html"> კონტაქტი</a></li>
@@ -53,29 +53,51 @@
             </header>
     
             <section>
-                
-               <div class="first_div">
-                    <h1>გალერეა</h1>
-                
-                  <img src="assets/images/prod_wine.PNG" class="" alt="wine image">      
-               </div>
+                <div class="input_container" >
+
+                <h1> კონტაქტი </h1>
+
+                <form action="!#">
+                    <div class="first">
+                    <input class="saxeli inputs " id="name" type="text" placeholder="სახელი გვარი" >              
+                    <input   class="subject inputs" id="subject" type="text" placeholder="თემა" >
+                </div>
+                <div class="second">
+                    <input  class="email inputs" id="email" type="text" placeholder="Email">
+                    <input  class="number inputs" id="num" type="text" placeholder="ტელეფონი">
+                </div>
+
+                    <textarea  class="massage_text inputs" name="massage" id="msg" cols="130" rows="15" placeholder="შეტყობინება" ></textarea>
+
+                </form>
+                <!-- <a class="send" id="send" href="!#"> გაგზავნა</a> -->
+                <p id="send"class="send" > გაგზავნა</p>
                
-               </div>
-               <div class="popup-gallery">
-                <div class="img_div"><a href="assets/images/wine_14.png" title="Red Wine"  ><img class="gallery_img" src="assets/images/wine_14.png" width="350xp" ></a></div>
-                <div class="img_div"><a href="assets/images/wine_14.png" title="Red Wine"  ><img class="gallery_img" src="assets/images/wine_14.png" width="350xp" ></a></div>
-                <div class="img_div"><a href="assets/images/wine_14.png" title="Red Wine"  ><img class="gallery_img" src="assets/images/wine_14.png" width="350xp" ></a></div>
-                <div class="img_div"><a href="assets/images/wine_14.png" title="Red Wine"  ><img class="gallery_img" src="assets/images/wine_14.png" width="350xp" ></a></div>
-                <div class="img_div"><a href="assets/images/wine_14.png" title="Red Wine"  ><img class="gallery_img" src="assets/images/wine_14.png" width="350xp" ></a></div>
-                <div class="img_div"><a href="assets/images/wine_14.png" title="Red Wine"  ><img class="gallery_img" src="assets/images/wine_14.png" width="350xp" ></a></div>  
-            </div>
-                  
-                 
+              
                     <img src="assets/images/main.jpg" alt="main_pic" class="hero_image">
                     <img src="assets/images/overlay.png" alt="overlay" class="overlay_image">
                     <img src="assets//images/biglogo.png" alt="Logo" class="logo_image" >
-               
+                </div>
+
+                <div class="map">
+                    <span class="top_address" >
+                        მისამართი: ი.ჭავჭავაძის ქუჩა 24, თბილისი, საქართველო
+                    </span>
+                    <span class="phone_number" >
+                        ტელეფონი: +995 599 40 77 71
+                    </span>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1489.2814962209757!2d44.77225154907267!3d41.708368820974655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440ccd6974f603%3A0x32a8ee3c9b24e1fe!2s24%20Ilia%20Chavchavadze%20Avenue%2C%20T&#39;bilisi!5e0!3m2!1sen!2sge!4v1573807814985!5m2!1sen!2sge" width="450" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+                </div>
+                    
             </section>
+            <div class="full_screen" id="full_screen" >
+            <div class="success" id="success" >
+                <span>შეტყობინება წარმატებით გაიგზავნა</span>
+                    <span class="ok_span" id="ok" >ok</span>
+                
+            </div>
+        </div>
 
             <footer class="footer">
 
@@ -120,8 +142,7 @@
                 </div>
         
             </footer>
-            <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
-            <script src="assets/js/gallery.js"></script>
+            <script src="https://smtpjs.com/v3/smtp.js"></script>
+            <script src="assets/js/contact.js"></script>
 </body>
 </html>
