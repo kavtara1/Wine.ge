@@ -35,10 +35,9 @@ body {
             box-sizing: border-box;
     color: #FFF
 }
-/* .slider_imgs  {
-    width: 250px !important ;
-    height:  250px !important ;
-} */
+.geoLogo{
+    width: 32px;
+}
 
 .navigation {
     width: 100%;

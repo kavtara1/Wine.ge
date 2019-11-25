@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
     <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <link rel="stylesheet" href="assets/css/lang.css">
+ 
 
 </head>
 
@@ -27,7 +29,7 @@
             <img class="logo" src="assets/images/logo.png" alt="logo">
             <ul class="navigation_list">
                 <li> <a href="news.html"> სიახლეები</a></li>
-                <li> <a href=""> მედია</a></li>
+                <li> <a href="media.html"> მედია</a></li>
                 <li> <a href=""> წარმოება </a></li>
                 <li> <a href="contact.html"> კონტაქტი</a></li>
             </ul>
@@ -42,6 +44,20 @@
                 <span class="burger_item" id="bar3"></span>
             </div> 
         </div>
+        <!-- language -->
+        <div class="language-picker language-picker--hide-label js-language-picker" data-trigger-class="btn btn--subtle js-tab-focus">
+            <form action="" class="language-picker__form">
+              <label for="language-picker-select">Select your language</label>
+          
+              <select name="language-picker-select" id="language-picker-select">
+                <option lang="de" value="deutsch">Deutsch</option>
+                <option lang="en" value="english" selected>English</option>
+                <option lang="fr" value="francais">Français</option>
+                <option lang="it" value="italiano">Italiano</option>
+              </select>
+            </form>
+          </div>
+        <!-- language -->
     </header>
 
         <div class="overlay" id="burger_overlay">
@@ -51,7 +67,7 @@
                 <li><a href="gallery.html">გალერეა</a></li>
                 <li><a href="products.html">პროდუქტი</a></li>
                 <li> <a href="news.html"> სიახლეები</a></li>
-                <li> <a href=""> მედია</a></li>
+                <li> <a href="media.html"> მედია</a></li>
                 <li> <a href=""> წარმოება </a></li>
                 <li> <a href="contact.html"> კონტაქტი</a></li>
             </ul>
@@ -260,6 +276,8 @@
 
 
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/lang.js"></script>
+
 </body>
 
 <!-- 1100 dan 1400mde -->
