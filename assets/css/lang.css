@@ -1,0 +1,44 @@
+#option-bar {
+	display: none;
+}
+
+
+.main {
+	width: 17px
+}
+/* .language {
+    position: absolute;
+    right: 10px;
+    top: 35px;
+} */
+
+@media screen and (min-width:0px)  {
+    .language {
+        position: absolute;
+        right: 10px;
+        top: 35px;
+    }
+
+  
+}
+
+@media screen and (min-width: 320px)and (max-width: 480px)  {
+    .language {
+        position: absolute;
+        right: 80px;
+        top: 18px;
+    }
+
+  
+}
+@media screen and (min-width: 760px)and (max-width: 1100px) {
+
+    .language {
+        position: absolute;
+        right: 25px;
+        top: 50px;
+    }
+}
+
+
+
