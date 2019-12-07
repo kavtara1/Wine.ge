@@ -1294,3 +1294,22 @@ section {
     }
     }
 
+
+@media screen and (min-width: 1001px) and (max-width: 1600px){
+    .saxeli,.subject,.email,.number {
+        background-color: rgba(0,0,0,0.1);
+        height: 40px;
+        width: 350px;
+        border: #efeff0 1px solid;
+        margin-bottom:25px ;
+        
+        
+    }
+    .massage_text {
+        background-color: rgba(0,0,0,0.1);
+        width: 730px;
+        height: 265px;
+    }
+
+}
+

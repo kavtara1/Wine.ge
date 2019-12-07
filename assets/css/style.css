@@ -54,7 +54,7 @@ body {
 }
 
 .navigation_list {
-    width: 550px;
+    width:  350px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -62,6 +62,7 @@ body {
         -ms-flex-pack: justify;
             justify-content: space-between;
     height: 35px;
+
 }
 
 .navigation_list li {
@@ -70,6 +71,7 @@ body {
     display: flex;
 }
 
+    
 
 
 .navigation_list li:hover {
