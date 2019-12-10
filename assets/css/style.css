@@ -117,9 +117,18 @@ body {
 /* About Section start */
 
 .about_list li h3 {
+    
     font-family: caps, sans-serif;
+    
 }
 
+/* .about_list:nth-child(2):nth-child(2){
+    margin-bottom: 40px;
+} */
+
+.magazine {
+    margin-bottom: 70px;
+}
 .mukuzani {
     height: 290px;
     display: -webkit-box;
@@ -1446,7 +1455,7 @@ address {
     .mukuzani>p {
         margin-left: 100px;
         text-align: start;
-        width: 580px;
+        width: 680px;
         font-family: light, sans-serif;
     }
     .mukuzani>h2 {
@@ -1501,7 +1510,7 @@ address {
     
     .xvanchkara>p {
         margin-left: 100px;
-        width: 580px;
+        width: 680px;
         text-align: start;
         font-family: light, sans-serif
     }
