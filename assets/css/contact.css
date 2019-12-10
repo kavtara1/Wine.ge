@@ -50,13 +50,13 @@ body {
 }
 
 .navigation_list {
-    width: 550px;
+    width: 350px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
-            justify-content: space-around;
+            justify-content: space-between;
     height: 35px;
 }
 
@@ -921,6 +921,11 @@ section {
 
 
 @media screen and (min-width: 290px) and (max-width: 360px) {
+    .burger {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
 
     .copyright {
         font-family: FiraGo, sans-serif;
@@ -950,7 +955,7 @@ section {
     }
 
     iframe {
-        width: 320px;
+        width: 290px;
 
     }
     .map{
@@ -958,13 +963,19 @@ section {
         margin-top: 5px;
     }
     .saxeli, .subject, .email, .number,.massage_text{
-        width: 340px;
+        width: 300px;
     }
     
 
     }
 
 @media screen and (min-width: 361px) and (max-width: 410px) {
+
+    .burger {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
     .imageblock {
         width: 95%;
         display: -webkit-box;
