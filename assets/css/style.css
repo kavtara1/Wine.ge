@@ -126,9 +126,9 @@ body {
     margin-bottom: 40px;
 } */
 
-.magazine {
+/* .magazine {
     margin-bottom: 70px;
-}
+} */
 .mukuzani {
     height: 290px;
     display: -webkit-box;
@@ -1486,7 +1486,7 @@ address {
     .about_list p {
         width: 250px;
     }
-    
+
     .xvanchkara>span {
         margin-left: 100px;
         color: #aa926b;
@@ -1588,6 +1588,18 @@ address {
         position: relative;
         top: 55px;
         left: 80px;
+    }
+    .second_li {
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .magazine {
+        margin-bottom: 30px;
+    }
+
+    .magazine_p{
+        margin-bottom: 48px;
     }
     .burger {
         display: none;	
