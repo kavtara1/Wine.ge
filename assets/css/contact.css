@@ -491,7 +491,7 @@ section {
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: 1;
+    /* z-index: 10; */
 }
 .success {
     display: flex;
@@ -505,6 +505,7 @@ section {
     align-items: center;
     justify-content:center;
     background-color: #1e212a;
+    /* z-index: 11; */
     
     
 }

@@ -1,3 +1,5 @@
+let body = document.getElementById("body")
+let map = document.getElementById("map")
 let sendButton = document.getElementById("send")
 sendButton.addEventListener('click', function(){
 	let name = document.getElementById("name")
@@ -35,6 +37,9 @@ sendButton.addEventListener('click', function(){
 		function successMassage (){
 		fullScreen.style.display = "block"
 		successText.style.display = "flex"
+		body.style.overflow = "hidden"
+		map.style.display = "none"
+		
 	}
 	)
 }		
@@ -44,7 +49,8 @@ okButton = document.getElementById("ok")
 okButton.addEventListener('click',function(){
 	location.reload()
 	fullScreen.style.display = "none"
-
+	body.style.overflow = "visable"
+	map.style.display = "block"
 })
 
 let burger = document.getElementById("menu");
@@ -62,3 +68,4 @@ burger.addEventListener("click",function(){
    }
 
 })
+
