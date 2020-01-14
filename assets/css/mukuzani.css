@@ -376,7 +376,7 @@ opacity: 0;
         width: 50px;
     }
     article {
-        height: 850px;
+        height: 450px;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -392,6 +392,11 @@ opacity: 0;
                 justify-content: space-between;
         margin-left: 0px;
         /* text-align: center; */
+        
+    }
+    .article_text {
+        display: flex;
+        align-items: center;
         
     }
     .img1 {

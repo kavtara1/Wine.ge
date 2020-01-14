@@ -1,3 +1,4 @@
+  
 $(document).ready(function() {
 	$('.popup-gallery').magnificPopup({
 		delegate: 'a',
@@ -23,8 +24,6 @@ $(document).ready(function() {
 	
 	   });
 });
-
-
 
 let burger = document.getElementById("menu");
 let overlay = document.getElementById("burger_overlay");

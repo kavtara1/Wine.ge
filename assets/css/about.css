@@ -48,7 +48,7 @@ body {
 }
 
 .navigation_list {
-    width: 350px;
+    width: 550px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -335,6 +335,7 @@ opacity: 0;
 
 @media only screen and (min-width: 0px) {
 
+       
     .burger {
         display: -webkit-box;
         display: -ms-flexbox;

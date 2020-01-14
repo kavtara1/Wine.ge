@@ -54,7 +54,7 @@ body {
 }
 
 .navigation_list {
-    width:  350px;
+    width:  550px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -63,6 +63,9 @@ body {
             justify-content: space-between;
     height: 35px;
 
+}
+.second_list {
+    width: 550px;
 }
 
 .navigation_list li {
@@ -406,6 +409,12 @@ body {
         width: 50px;
     }
     
+    video {
+        width: 300px;
+        height: 450px;
+       padding-bottom: 150px;
+       
+    }
 
     
 
@@ -651,24 +660,15 @@ body {
                 align-items: center;
     }
     .video {
+        display: flex;
+        justify-content: center;
         position: relative;
         height: 200px;
         width: 100%;
         margin-top: 70px;
+        margin-bottom: 25px;
     }
-    .video>img {
-   
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        width: 100%;
-        -o-object-fit: cover;
-           object-fit: cover;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-    }
+
     .news ul {
         width: 75%;
         display: -webkit-box;
@@ -685,6 +685,7 @@ body {
             -ms-flex-align: center;
                 align-items: center;
         height: 1500px;
+        margin-top: 50px;
         
     }
     .news {
@@ -1074,7 +1075,12 @@ address {
         height: 250px;
         width: 51%;
         }
-    
+        video {
+            height:700px;
+            width: 500px;
+        }
+        
+   
     .hero_p {
         margin-left: 150px;
         margin-bottom: 100px;
@@ -1319,6 +1325,7 @@ address {
                 justify-content: space-between;
     }
     .news {
+        
         height: 450px;
         display: -webkit-box;
         display: -ms-flexbox;
@@ -1640,6 +1647,10 @@ address {
         display: block;
         
     }
+    .video {
+        width: 300px;
+        height: 450px;
+    }
     .wine_mukuzani img {
         width: 100%;
     }
@@ -1782,9 +1793,7 @@ address {
 .news {
     height: 1500px ;
 } 
-.video {
-    height: 320px;
-}
+
 .news ul li {
 width: 255px;
 -webkit-box-align:center;
@@ -2008,9 +2017,7 @@ width: 255px;
 .news {
     height: 1500px ;
 } 
-.video {
-    height: 320px;
-}
+
 .news ul li {
 width: 255px;
 -webkit-box-align:center;
