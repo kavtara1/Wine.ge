@@ -115,6 +115,9 @@ body {
     -o-transition: background-color 300ms ease;
     transition: background-color 300ms ease;
 }
+  .logo_image{
+    width: 85px;
+}
 
 
 /* About Section start */
@@ -255,6 +258,8 @@ body {
 
 .news-h2 {
     font-family: caps, sans-serif;
+    position: relative;
+    /* right: 30px; */
 }
 
 .news ul li img {
@@ -703,6 +708,7 @@ body {
         -webkit-box-align: center;
             -ms-flex-align: center;
                 align-items: center;
+        
       
     }
     .footer_nav {
@@ -1323,7 +1329,9 @@ address {
         -webkit-box-pack: justify;
             -ms-flex-pack: justify;
                 justify-content: space-between;
-    }
+        position: relative;
+        right: -35px;
+            }
     .news {
         
         height: 450px;
@@ -1802,6 +1810,8 @@ width: 255px;
 }
 .news ul li p{
     text-align: center;
+    
+    
 }
 .footer_nav{
     width: 85%;

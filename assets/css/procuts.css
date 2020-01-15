@@ -661,7 +661,7 @@ section {
 
 
 .wine_images li {
-    width: 23%;
+    width: 33%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
