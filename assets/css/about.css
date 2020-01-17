@@ -64,6 +64,11 @@ body {
     display: flex;
 }
 
+.logo_image1{
+    width: 85px;
+}
+
+
 
 
 .navigation_list li:hover {

@@ -24,6 +24,10 @@ body {
     margin: 0 auto;
 }
 
+.logo_image1{
+    width: 85px;
+}
+
 * {
     margin: 0;
     padding: 0;

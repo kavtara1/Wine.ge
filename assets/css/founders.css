@@ -23,6 +23,10 @@ body {
     max-width: 1920px;
     margin: 0 auto;
 }
+.logo_image1{
+    width: 85px;
+}
+
 
 * {
     margin: 0;

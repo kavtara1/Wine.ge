@@ -46,6 +46,10 @@ body {
         -ms-flex-align: center;
             align-items: center;
 }
+.logo_image1{
+    width: 85px;
+}
+
 
 .navigation_list {
     width: 550px;
@@ -796,8 +800,8 @@ h2 {
     }
     .article_img {
         margin-top: 25px;
-        height: 250px;
-        width: 150px;
+        height: 150px;
+        
     }
     .list {
         margin-left: 10px;
@@ -841,8 +845,7 @@ h2 {
     }
     .article_img {
         margin-top: 25px;
-        height: 250px;
-        width: 150px;
+        height: 150px;
     }
     .list {
         margin-left: 10px;
